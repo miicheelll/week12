@@ -8,3 +8,6 @@ Soal 3
 - Setiap event memberikan nilai t (0,1,2,3,...).
 - t % colors.length membuat index selalu berputar (loop) dari 0 sampai warna terakhir.
 - Setiap detik, stream mengirim warna yang berbeda dari list colors.
+
+Soal 4
+![](../../img/1.gif)
