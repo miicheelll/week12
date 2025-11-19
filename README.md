@@ -10,4 +10,4 @@ Soal 3
 - Setiap detik, stream mengirim warna yang berbeda dari list colors.
 
 Soal 4
-![](../../img/1.gif)
+![](img/1.gif)
