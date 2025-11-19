@@ -10,4 +10,9 @@ Soal 3
 - Setiap detik, stream mengirim warna yang berbeda dari list colors.
 
 Soal 4
+
 ![](img/1.gif)
+
+
+Soal 5
+Perbedaan antara listen dan await for terletak pada cara keduanya menangani aliran data dari stream. Method listen bersifat non-blocking, sehingga tidak menunggu stream selesai dan langsung menjalankan callback setiap kali ada data baru; cocok digunakan untuk pembaruan UI secara real-time. Sementara itu, await for bersifat blocking di dalam fungsi async, karena ia menunggu setiap event stream secara berurutan hingga stream selesai. Dengan kata lain, listen bekerja secara reaktif tanpa menghentikan eksekusi kode, sedangkan await for bekerja seperti perulangan asynchronous yang memproses data satu per satu.
